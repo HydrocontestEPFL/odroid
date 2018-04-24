@@ -1,0 +1,10 @@
+<launch>
+<include file="$(find mavros)/launch/px4.launch" >
+</include>
+
+<!--node pkg="xsens_driver" type="mtnode.py" name="mtnode"  >
+    <param name="baudrate" value="115200" />
+    <param name="device" value="/dev/ttyUSB0" />
+ </node>-->
+
+</launch>
