@@ -75,7 +75,8 @@ if __name__=="__main__":
                     firstIteration = False
                 values = [str(t)]
                 for pair in data_list:
-                    values.append(pair[1])
+                    if len(pair) > 1:
+                        values.append(pair[1])
                 filewriter.writerow(values)
 
     bag.close()
