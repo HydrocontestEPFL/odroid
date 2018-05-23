@@ -18,7 +18,7 @@ roslaunch boat.launch
 # type C-a C-d to detach from session
 
 screen -S log
-sh log2.sh
+rosbag record -a
 # again detach with C-a C-d
 
 # you can disconnect now...
